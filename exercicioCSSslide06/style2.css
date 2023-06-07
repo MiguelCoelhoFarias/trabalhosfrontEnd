@@ -1,0 +1,12 @@
+div ul {
+    list-style-type: none;
+    display:block;
+    background-color: rgb(73, 144, 236);
+    margin-right: 10px;
+    margin-left: -10px;
+}
+
+div li {
+    background-color: aqua;
+    margin: 10px 0px;
+}

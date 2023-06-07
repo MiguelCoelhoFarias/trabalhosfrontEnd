@@ -1,0 +1,31 @@
+.up-left {
+    background-color: red;
+    height: 70px;
+    text-align: left;
+    position: fixed;
+    right: 85%;
+}
+.up-right {
+    height: 70px;
+    background-color: yellow;
+    position: fixed;
+    text-align: right;
+    left: 90%;
+    text-align: right;
+}
+.down-left {
+    height: 70px;
+    background-color: green;
+    position: fixed;
+    top: 80%;
+    right: 85%;
+    text-align:left;
+}
+.down-right {
+    height: 70px;
+    background-color: blue;
+    position: fixed;
+    top: 80%;
+    left: 90%;
+    text-align: right;
+}

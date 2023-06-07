@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(assets/Grupo\ de\ pessoas\ fazendo\ exercício\ de\ aquecimento\ no\ clube\ de\ fitness\ _\ Foto\ Premium.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    border: 0.01rem solid blue;
+    background-color: red;
+    width: 300px;
+    margin: 20px 10px;
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+}
+
+section {
+    margin: 10px;
+    color: white;
+}
+
+button {
+    background-color: white;
+}
+
+button a{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+}

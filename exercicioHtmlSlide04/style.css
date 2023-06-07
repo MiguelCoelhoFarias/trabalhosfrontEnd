@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    color: black;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.coluna2{
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+header button {
+    border-radius: 5px;
+    background-color:rgba(68, 66, 66, 0.651);
+    height: 30px;
+    text-align: center;
+    color: rgb(236, 228, 228);
+
+}
+.play,.playlist {
+    border-radius: 5px;
+    background-color:rgba(68, 66, 66, 0.651);
+    height: 30px;
+    text-align: center;
+    color: rgb(236, 228, 228);
+    
+}
+
+.bandas-icon {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+}
+
+.info {
+    border-radius: 5px;
+    background-color:rgba(41, 41, 199, 0.521);
+    height: 30px;
+    text-align: center;
+    color: rgb(236, 228, 228);
+}
+
+.icons-midiaplayer {
+    width: 15px;
+    height: 15px;
+}
+
+.faixa {
+    display: inline-block;
+    width: 66%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.faixa2 {
+    display: inline-block;
+    width: 66%;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    list-style-position: outside;
+    margin: 10px;
+}
+footer img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+footer audio {
+    text-shadow: 2px;
+    opacity: 0.7;
+    margin-left: 70px;
+}
+footer p {
+    margin-left: 100px;
+}
+
+footer ul li {
+    margin: 20px;
+}
